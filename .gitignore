@@ -1,0 +1,27 @@
+# run outputs — these get large (a 30-replicate project is >1 GB)
+work/
+runs/
+*.zip
+interface_scores*.txt
+energy_profile*.png
+clusters.png
+clusters.csv
+path_distances.txt
+
+# the LigandPathFinder checkout, which lpf_run.py clones on demand
+LigandPathFinder/
+
+# PyRosetta backend launchers, which pin absolute paths
+pyrosetta_backend/
+_molfile_to_params/
+
+# build intermediates
+_tutorial.html
+__pycache__/
+*.py[cod]
+
+# the paper's supplementary PDF is not ours to redistribute
+media-1.pdf
+
+.DS_Store
+.ipynb_checkpoints/

@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: lpf-toolkit
+abstract: >-
+  A command-line driver and Jupyter notebooks for Ligand PathFinder, which
+  builds Rosetta-based ligand and peptide (un)binding pathways. The upstream
+  LigandPathFinder code is run unmodified.
+message: >-
+  If you use this toolkit, please cite the Ligand PathFinder method paper (in
+  "references" below) — that is the work that deserves the citation. A mention
+  of this toolkit is welcome but optional.
+type: software
+authors:
+  - family-names: Arantes
+    given-names: Pablo
+license: MIT
+repository-code: "https://github.com/USERNAME/lpf-toolkit"
+keywords:
+  - Rosetta
+  - molecular modelling
+  - ligand unbinding
+  - protein-peptide
+  - RosettaLigand
+references:
+  - type: article
+    title: Exploration of ligand (un)binding trajectories with Rosetta
+    authors:
+      - family-names: Zlobin
+        given-names: Alexander
+      - family-names: Eisenhuth
+        given-names: Paul
+      - family-names: Ferrario
+        given-names: Valerio
+      - family-names: Meiler
+        given-names: Jens
+    year: 2026
+    journal: bioRxiv
+    doi: 10.64898/2026.10.07.757317
+  - type: software
+    title: LigandPathFinder
+    repository-code: "https://github.com/meilerlab/LigandPathFinder"
+    license: MIT

@@ -1,0 +1,23 @@
+# Required: LigandPathFinder itself imports only these two.
+numpy>=1.19
+scipy>=1.6
+
+# Needed to build ligand/peptide files from an SD file or a complex,
+# and for the plots. Install unless you only ever supply ready-made
+# lig.params + lig_conformers.pdb.
+rdkit>=2022.9
+matplotlib>=3.5
+
+# Needed by `lpf_run.py cluster` (affinity propagation).
+scikit-learn>=1.0
+
+# Optional: 3D views inside the notebooks.
+py3Dmol>=2.0
+
+# Optional: only to regenerate the notebooks with build_notebooks.py.
+nbformat>=5.0
+
+# NOT installable from here: Rosetta. Either a rosetta_scripts binary, or
+#   pip install pyrosetta-installer
+#   python -c "import pyrosetta_installer; pyrosetta_installer.install_pyrosetta()"
+# See the README. Rosetta is licensed separately.
